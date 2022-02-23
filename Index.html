@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html    lang="en">
+    <head>
+        <meta charset="uft-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+		
+        <title>Melton Project</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <a class="navbar-brand" href="#page-top"><img src="MeltonLogo.jpg" height ="100" width="300" a>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="About.html">About me</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+            </div>
+
+     </header>
+     <hr></hr>
+     <section id="home">
+        <table id="mainTable">
+            <tr>
+                <td colspan="2" >
+                    <video width="1200" height="520" controls>
+                        <source src="How To Learn Programming for.mp4" type="video/mp4">
+                    </video>
+            
+            </tr>
+
+            <tr>
+                <td  align="center">
+                    <div id="bioBox" class="bioBox">
+                        <h1 id="name"></h1>
+                        <p id="bioinfo"></p>  
+                    </div>
+                </td>
+                <td align="right">
+                    <img id="image" src="IMG_20210422_175020.jpg" alt="">
+                </td>
+            </tr>
+        </table>
+    </section>
+        
+    <hr></hr>
+    <footer class=" footer">
+        <div class="footer-content">
+            <div class="footer-body" id="aboutProjects">
+                <h3>Social Media links</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/nhlalala-mudanisi-106581211">Visit LinkedIn</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-body" id="personal">
+                <h3>Contacts</h3>
+                <ul>
+                    <li>Call me on: <a href="phoneNo:072 5753 318"> 072 5753 318</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+      
+    </footer> 
+        
+    <script>
+     let name = 'Melton Mudanisi';
+let bio = 'I would to describe myself as hardworking,dedicated and i like to work under pressure because '+
+         'when do work  under pressure i finished on time,and im a team player.<br><br>'+
+         'I have just finished my Level 6 in IT(Software Development),i do not have experience'+
+         'but i have skills in C++,C#,SQL,MySQL,and some basic in HTML,CSS,Javascripts';
+
+document.getElementById('name').innerHTML = "<b>"+name+"</b>";
+document.getElementById('bioinfo').innerHTML = "<b>"+bio+"</b>";
+document.getElementById('bioinfo').innerHTML += "<a href='./about.html'><button type='button'>Click me...</button></a>";
+
+    </script>
+   
+
+    </body>
+</html>
